@@ -49,7 +49,7 @@
         <tr>
           <th>Soft Skills</th>
           <td>Problem Solving</td>
-          <td>Loyal</td>
+          <td>Resilient</td>
           <td>Flexible</td>
         </tr>
        </table>
