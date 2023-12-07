@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock</title>
+
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+    <div class="a_clock">
+        <div class="hour hand" id="hour"></div>
+        <div class="minute hand" id="minute"></div>
+        <div class="seconds hand" id="seconds"></div>
+        <img src="clock template.svg" alt="clock">
+    </div>
+
+    <div class="d_clock" onload="initClock()">
+        <div class="datetime">
+            <div class="date">
+              <span id="dayname">Day</span>,
+              <span id="month">Month</span>
+              <span id="daynum">00</span>,
+              <span id="year">Year</span>
+            </div>
+            <div class="time">
+              <span id="d_hour">00</span>:
+              <span id="d_minutes">00</span>:
+              <span id="d_seconds">00</span>
+              <span id="d_period">AM</span>
+            </div>
+          </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

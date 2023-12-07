@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        #5fcef0 50%,
+        #16191e 50%
+    );
+}
+.a_clock{
+    background: #16191e;
+    height: 320px;
+    width: 320px;
+    margin-top: 300px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: content-box;
+    border-radius: 50%;
+    border: 15px solid #242931;
+    box-shadow: 15px 15px 35px rgba(0,0,0,0.2),
+    inset 0 0 30px rgba(0,0,0,0.4);
+}
+.d_clock{
+   margin-left: 500px;
+}
+
+img{
+    position: relative;
+}
+.hand{
+    position: absolute;
+    background-color: #ffffff;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    transform-origin: bottom;
+}
+.hour{
+    height: 60px;
+    width: 10px;
+    top: 100px;
+}
+.minute{
+    height: 80px;
+    width: 5px;
+    top: 80px;
+}
+.seconds{
+    height: 90px;
+    width: 3px;
+    top: 70px;
+    background-color: #52c9f8;
+}
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #10101E;
+  }
+  
+  .datetime{
+    color: #fff;
+    background: #10101E;
+    font-family: "Segoe UI", sans-serif;
+    width: 340px;
+    padding: 15px 10px;
+    border: 3px solid #2E94E3;
+    border-radius: 5px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+    transition: 0.5s;
+    transition-property: background, box-shadow;
+  }
+  
+  .datetime:hover{
+    background: #2E94E3;
+    box-shadow: 0 0 30px #2E94E3;
+  }
+  
+  .date{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  
+  .time{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .time span:not(:last-child){
+    position: relative;
+    margin: 0 6px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  
+  .time span:last-child{
+    background: #2E94E3;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+  }
