@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gallery</title>
+        <link rel="stylesheet" href="styles.css"> 
+        <script src="script.js"></script>
+    </head>
+    <body>
+            <marquee behavior="scroll" scrollamount="10" direction="right">
+            <h1 align="center">Gallery</h1>
+            </marquee>
+            <br>
+            <br>
+            <h2 align="center">Dynamic Gallery with hover effect</h2>
+            <br>
+
+            <div class="gallery">
+                <img src="./Image/p1.jpg" alt="Image 2" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p2.jpg" alt="Image 3" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p3.jpg" alt="Image 4" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p4.jpg" alt="Image 5" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p5.jpg" alt="Image 6" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p6.jpg" alt="Image 7" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p7.jpg" alt="Image 8" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p8.jpg" alt="Image 9" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p9.jpg" alt="Image 10" class="gallery-img" onclick="showImage(src)">	
+                <img src="./Image/p10.jpg" alt="Image 11" class="gallery-img" onclick="showImage(src)">	
+                <img src="./Image/p1.jpg" alt="Image 1" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p2.jpg" alt="Image 1" class="gallery-img" onclick="showImage(src)">	
+            </div>
+                
+            <div class="image-popup-container" id="imagePopup">
+                <span class="close-button" onclick="closeImage()">×</span>
+                 <img src="" alt="Popup Image" id="popupImage">
+            </div>
+
+            <br>
+            <br>
+            <h2 align="center">Scrolling Effect</h2>
+            <br>
+
+            <marquee behavior="scroll" scrollamount="10" direction="left">
+            <div class="container">
+                <img src="./Image/p1.jpg" alt="Image 2" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p2.jpg" alt="Image 3" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p3.jpg" alt="Image 4" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p4.jpg" alt="Image 5" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p5.jpg" alt="Image 6" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p6.jpg" alt="Image 7" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p7.jpg" alt="Image 8" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p8.jpg" alt="Image 9" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p9.jpg" alt="Image 10" class="gallery-img" onclick="showImage(src)">	
+                <img src="./Image/p10.jpg" alt="Image 11" class="gallery-img" onclick="showImage(src)">	
+                <img src="./Image/p1.jpg" alt="Image 1" class="gallery-img" onclick="showImage(src)">
+                <img src="./Image/p2.jpg" alt="Image 1" class="gallery-img" onclick="showImage(src)">	
+            </div>
+           </marquee>
+    </body>
+</html>
