@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time Table</title>
+    <style>
+        body{
+            background: linear-gradient(to bottom, #78ebd4, #3ea7c1, #78ebd4);
+        }
+        table {
+            width: 100%;
+        }
+
+        h1{
+            background-color: rgb(247, 253, 253);
+            color: #f50eac;
+        }
+
+        h2{
+            background-color: rgb(169, 252, 252);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 2px; 
+            color: #f77327;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        b{
+          color:#260348;
+        }
+
+        th {
+            background-color: #80ffff;
+        }
+
+        .lab1 {
+            background-color: #ff9999;
+        }
+        
+        .lab2 {
+            background-color: #ffdd99;
+        }
+        
+        .class {
+            background-color:#d9b3ff ;
+        }
+        
+        .extra {
+            background-color:  #bbff99;
+        }
+
+        .elective {
+            background-color: #99ccff;
+        }
+    </style>
+
+    <script>
+        function openSyllabus(subject) {
+            window.location.href = 'syllabus.html#' + subject;
+        }
+    
+    </script>
+
+</head>
+<body>
+    <h1 align="center" >Class Time Table</h1>
+    <div>
+    <h2><b>Department:</b> Applied Mathematics & Computational Science</h2>
+    <h2><b>Semester  :</b> 5</h2>
+    <h2><b>Class     :</b> IG 7</h2>
+    </div>
+    <table>
+        <tr>
+            <th>Day/Time</th>
+            <th>9:00 - 10:00</th>
+            <th>10:00 - 11:00</th>
+            <th>11:15 - 12:15</th>
+            <th>12:15 - 1:15</th>
+            <th>2:15  - 3:15</th>
+            <th>3:15  - 4:15</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td class="class" onclick="openSyllabus('numerical-methods')"> Numerical methods </td>
+            <td class="elective" onclick="openSyllabus('software-engineering')">Software Engineering</td>
+            <td class="lab1" onclick="openSyllabus('java-programming-lab')">Java Programming Lab</td>
+            <td class="lab1" onclick="openSyllabus('java-programming-lab')">Java Programming Lab</td>
+            <td class="class" onclick="openSyllabus('computer-networks')">Computer Networks</td>
+            <td class="class" onclick="openSyllabus('web-technology')"> Web Technology</td>  
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td class="class" onclick="openSyllabus('machine-learning')">Machine Learning</td>
+            <td class="extra">Placement Training</td>
+            <td class="class" onclick="openSyllabus('computer-networks')">Computer Networks</td>
+            <td class="class" onclick="openSyllabus('numerical-methods')">Numerical methods</td>
+            <td class="lab1" onclick="openSyllabus('java-programming-lab')">Java Programming Lab</td>
+            <td class="lab1" onclick="openSyllabus('java-programming-lab')">Java Programming Lab</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td class="elective" onclick="openSyllabus('software-engineering')">Software Engineering</td>
+            <td class="class" onclick="openSyllabus('web-technology')">Web Technology</td>
+            <td class="lab2" onclick="openSyllabus('web-technology-lab')">Web Technology Lab</td>
+            <td class="lab2" onclick="openSyllabus('web-technology-lab')">Web Technology Lab</td>
+            <td class="class" onclick="openSyllabus('machine-learning')">Machine Learning</td>
+            <td class="extra">Tutor Ward Meeting</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td class="class" onclick="openSyllabus('computer-networks')">Computer Networks</td>
+            <td class="class" onclick="openSyllabus('web-technology')">Web Technology</td>
+            <td class="extra">Mini Project</td>
+            <td class="class" onclick="openSyllabus('machine-learning')">Machine Learning</td>
+            <td class="class" onclick="openSyllabus('numerical-methods')">Numerical methods</td>
+            <td class="elective" onclick="openSyllabus('software-engineering')">Software Engineering</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td class="class" onclick="openSyllabus('web-technology')">Web Technology</td>
+            <td class="class" onclick="openSyllabus('numerical-methods')">Numerical methods</td>
+            <td class="class" onclick="openSyllabus('machine-learning')">Machine Learning</td>
+            <td class="class" onclick="openSyllabus('computer-networks')">Computer Networks</td>
+            <td class="lab2" onclick="openSyllabus('web-technology-lab')">Web Technology Lab</td>
+            <td class="lab2" onclick="openSyllabus('web-technology-lab')">Web Technology Lab</td>
+        </tr>        
+    </table>
+</body>
+</html>
