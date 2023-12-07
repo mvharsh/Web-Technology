@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="person.xsl"?>
+<persons>
+  <person>
+    <name>Mohit Sharma</name>
+    <age>28</age>
+    <gender>Male</gender>
+    <city>New Delhi</city>
+    <occupation>Engineer</occupation>
+    <email>mohit@example.com</email>
+    <phone>1234567890</phone>
+    <address>123, Main Street</address>
+    <education>BE</education>
+  </person>
+  <person>
+    <name>Anjali Verma</name>
+    <age>24</age>
+    <gender>Female</gender>
+    <city>Mumbai</city>
+    <occupation>Teacher</occupation>
+    <email>anjali@example.com</email>
+    <phone>9876543210</phone>
+    <address>456, Park Avenue</address>
+    <education>MA</education>
+  </person>
+  <person>
+    <name>Rahul Singh</name>
+    <age>32</age>
+    <gender>Male</gender>
+    <city>Bangalore</city>
+    <occupation>Doctor</occupation>
+    <email>rahul@example.com</email>
+    <phone>5678901234</phone>
+    <address>789, Oak Street</address>
+    <education>MBBS</education>
+  </person>
+  <person>
+    <name>Meena Patel</name>
+    <age>29</age>
+    <gender>Female</gender>
+    <city>Ahmedabad</city>
+    <occupation>Lawyer</occupation>
+    <email>meena@example.com</email>
+    <phone>2345678901</phone>
+    <address>101, Maple Drive</address>
+    <education>LLB</education>
+  </person>
+  <person>
+    <name>Amit Kumar</name>
+    <age>35</age>
+    <gender>Male</gender>
+    <city>Kolkata</city>
+    <occupation>Manager</occupation>
+    <email>amit@example.com</email>
+    <phone>6789012345</phone>
+    <address>303, Cedar Lane</address>
+    <education>MBA</education>
+  </person>
+  <person>
+    <name>Priya Singh</name>
+    <age>27</age>
+    <gender>Female</gender>
+    <city>Chennai</city>
+    <occupation>Software Developer</occupation>
+    <email>priya@example.com</email>
+    <phone>3456789012</phone>
+    <address>202, Birch Road</address>
+    <education>BE</education>
+  </person>
+  <person>
+    <name>Rajesh Yadav</name>
+    <age>30</age>
+    <gender>Male</gender>
+    <city>Hyderabad</city>
+    <occupation>Architect</occupation>
+    <email>rajesh@example.com</email>
+    <phone>4567890123</phone>
+    <address>404, Elm Street</address>
+    <education>B.Arch</education>
+  </person>
+  <person>
+    <name>Sarika Gupta</name>
+    <age>26</age>
+    <gender>Female</gender>
+    <city>Pune</city>
+    <occupation>Graphic Designer</occupation>
+    <email>sarika@example.com</email>
+    <phone>5678901234</phone>
+    <address>505, Pine Avenue</address>
+    <education>BFA</education>
+  </person>
+</persons>
