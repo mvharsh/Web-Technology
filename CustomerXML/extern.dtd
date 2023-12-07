@@ -1,0 +1,27 @@
+<!ELEMENT document (customer)*>
+<!ELEMENT customer (name,date,orders)>
+<!ELEMENT name (firstname,lastname)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT orders (item)*>
+<!ELEMENT item (product,number,price)>
+<!ELEMENT product (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+
+<!ATTLIST customer 
+    id ID #REQUIRED
+    membership CDATA #IMPLIED
+    status (active|inactive) "active"
+>
+
+<!ATTLIST product 
+    category CDATA #IMPLIED
+    brand CDATA #IMPLIED
+>
+
+<!ATTLIST item 
+    quantity CDATA #IMPLIED
+    discount CDATA #IMPLIED
+>

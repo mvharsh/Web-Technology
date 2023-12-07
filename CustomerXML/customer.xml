@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE document SYSTEM "extern.dtd">
+<document>
+    <customer id="C1001" membership="gold" status="active">
+        <name>
+            <firstname>John</firstname>
+            <lastname>Doe</lastname>
+        </name>
+        <date>2023-10-04</date>
+        <orders>
+            <item quantity="3" discount="15%">
+                <product category="electronics" brand="Sony">Smart TV</product>
+                <number>12345</number>
+                <price>1500</price>
+            </item>
+            <item quantity="2" discount="10%">
+                <product category="clothing" brand="Nike">Running Shoes</product>
+                <number>67890</number>
+                <price>200</price>
+            </item>
+        </orders>
+    </customer>
+    <customer id="C1002" membership="silver" status="inactive">
+        <name>
+            <firstname>Jane</firstname>
+            <lastname>Smith</lastname>
+        </name>
+        <date>2023-10-04</date>
+        <orders>
+            <item quantity="1" discount="5%">
+                <product category="books" brand="Penguin">Fiction Novel</product>
+                <number>24680</number>
+                <price>30</price>
+            </item>
+            <item quantity="4" discount="12%">
+                <product category="electronics" brand="Samsung">Mobile Phone</product>
+                <number>13579</number>
+                <price>800</price>
+            </item>
+        </orders>
+    </customer>
+</document>
