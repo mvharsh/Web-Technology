@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="registration-form">
+
+    <h2>Registration Form</h2>
+    <form id="registration-form" onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="email" id="email" placeholder="Email Address" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+      <button type="submit">Register</button>
+    </form>
+
+    <div id="registration-details">
+      <h3>Registration Details</h3>
+      <p><strong>Name:</strong> <span id="display-name"></span></p>
+      <p><strong>Email:</strong> <span id="display-email"></span></p>
+    </div>
+    
+  </div>
+</body>
+</html>
